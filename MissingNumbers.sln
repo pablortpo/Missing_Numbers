@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{8673F8FF-1A70-4BCC-9C0B-D4DE25CFF347}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{38C921C2-2B60-4DBC-8B4A-F3D21BD72D66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{1AFC5B02-AFB7-414C-A798-22E1E06BDEF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumbers.BusinessLogic", "MissingNumbers.BusinessLogic\MissingNumbers.BusinessLogic.csproj", "{DD5C5AE6-E248-45CB-BBDB-0E978D28E44A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumbers.BusinessLogic.Test", "MissingNumbers.BusinessLogic.Test\MissingNumbers.BusinessLogic.Test.csproj", "{FD66848C-5455-4C4F-A9D2-FD6693DE59FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD5C5AE6-E248-45CB-BBDB-0E978D28E44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5C5AE6-E248-45CB-BBDB-0E978D28E44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5C5AE6-E248-45CB-BBDB-0E978D28E44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5C5AE6-E248-45CB-BBDB-0E978D28E44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD66848C-5455-4C4F-A9D2-FD6693DE59FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD66848C-5455-4C4F-A9D2-FD6693DE59FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD66848C-5455-4C4F-A9D2-FD6693DE59FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD66848C-5455-4C4F-A9D2-FD6693DE59FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD5C5AE6-E248-45CB-BBDB-0E978D28E44A} = {38C921C2-2B60-4DBC-8B4A-F3D21BD72D66}
+		{FD66848C-5455-4C4F-A9D2-FD6693DE59FB} = {8673F8FF-1A70-4BCC-9C0B-D4DE25CFF347}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D4B273C-756E-4A84-9F3E-E8CB03E853C3}
+	EndGlobalSection
+EndGlobal
