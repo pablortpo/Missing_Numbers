@@ -7,11 +7,21 @@
     public class MissingNumber : Interface.IMissingNumber
     {
         #region Attributes
+        /// <summary>
+        /// attribute with max length array.
+        /// </summary>
         private readonly double MAX_LENGTH_ARRAY;
+
+        /// <summary>
+        /// Attribute with max value item of array.
+        /// </summary>
         private readonly double MAX_VALUE_ARRAY;
         #endregion
 
         #region Builder
+        /// <summary>
+        /// Builder method of class.
+        /// </summary>
         public MissingNumber()
         {
             this.MAX_LENGTH_ARRAY = Math.Pow(10, 5);
@@ -90,9 +100,14 @@
             return string.Join(Environment.NewLine, messages);
         }
 
+        /// <summary>
+        /// This method is for to valid the length of array.
+        /// </summary>
+        /// <param name="lengthArray"></param>
+        /// <returns>Return <c>true</c> if the lengths are correct.</returns>
         private bool ValidLengthArray(int lengthArray)
         {
-            //if (lengthArray < 1 || lengthArray > (2 * this.MAX_LENGTH_ARRAY))
+            ///if (lengthArray < 1 || lengthArray > (2 * this.MAX_LENGTH_ARRAY))
             if (lengthArray >= 1 && lengthArray <= (2 * this.MAX_LENGTH_ARRAY))
             {
                 return true;
